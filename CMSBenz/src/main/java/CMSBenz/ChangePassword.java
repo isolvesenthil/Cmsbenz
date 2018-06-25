@@ -25,7 +25,7 @@ public class ChangePassword {
 		Thread.sleep(3000);
 		driver.close();
 		
-		System.out.println("GITHubTeting filee  Completed Successfully");
+		System.out.println("GITHub Completed Successfully");
 		Thread.sleep(3000);
 	}
 	
