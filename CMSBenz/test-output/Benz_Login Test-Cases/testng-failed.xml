@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Benz_Login Test-Cases]">
+  <test name="LoginCases(failed)">
+    <classes>
+      <class name="CMSBenz.BenzLogin_TestCase">
+        <methods>
+          <include name="loginWithEmptyCredentials_TCID_BNZ004"/>
+          <include name="loginWithInValidUserName_TCID_BNZ002"/>
+          <include name="closeBrowser"/>
+          <include name="loadBrowser"/>
+          <include name="loginWithInValidPassword_TCID_BNZ003"/>
+        </methods>
+      </class> <!-- CMSBenz.BenzLogin_TestCase -->
+    </classes>
+  </test> <!-- LoginCases(failed) -->
+</suite> <!-- Failed suite [Benz_Login Test-Cases] -->
