@@ -21,7 +21,7 @@ public class ReadExcel {
 	public static void loadExcel() throws Exception{
 		
 //		System.out.println("Loading Excel :::");
-		FileInputStream File = new FileInputStream("D:\\Senthil\\Java Program\\CMSBenz\\src\\test\\java\\CMSBenz\\Data.xlsx");
+		FileInputStream File = new FileInputStream("C:\\Users\\bs2896\\git\\Cmsbenz\\CMSBenz\\src\\test\\java\\CMSBenz\\Data.xlsx");
 		workbook = new XSSFWorkbook(File);
 		sheet = workbook.getSheet("Sheet1");
 		File.close();
